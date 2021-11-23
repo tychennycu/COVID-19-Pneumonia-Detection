@@ -21,7 +21,7 @@ save netTransfer
 ### Step3
 Put the CXR images into the folder named "valid", and use the code below to detect pneumonia.
 ```
-%netTransfer = load('netTransfer.mat');
+%netTransfer = load('Densenet201.mat');
 %netTransfer = netTransfer.net;
 
 imds_valid = imageDatastore('valid','FileExtensions','.dcm','ReadFcn',@dicompreprocess);
