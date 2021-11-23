@@ -1,9 +1,9 @@
 # COVID-19-Pneumonia-Detection
-We trained ResNet50 and DenseNet201 to detect chest x-ray(CXR) images in MATLAB 2021a, they can be classified as negative, typical, atypical CXR images.
+We trained ResNet50 and DenseNet201 to detect chest x-ray(CXR) images in MATLAB 2021a, they can be classified as negative, typical, atypical CXR images.<br>
 If you want to use our trained model directly, you can start from step 3 below.
 
 ## Requirement
-Image Processing Toolbox
+Image Processing Toolbox<br>
 Deep Learning Toolbox
 
 ## Usage
@@ -13,7 +13,7 @@ Organize CXR images into files, and the name of the files can be recognized as l
 
 ### Step2
 
-Use main_densenet201.m or main_resnet50_6labels.m to train the model.
+Use main_densenet201.m or main_resnet50_6labels.m to train the model.<br>
 When you finished training, you can use the code below to save the net.
 ```
 save netTransfer
